@@ -1,0 +1,10 @@
+export const host = "http://localhost:5000";
+// console.log("now");
+export const registerRoute = `${host}/api/auth/register`;
+export const loginRoute = `${host}/api/auth/login`;
+// console.log("Adding");
+export const addTaskRoute = `${host}/api/task/addtask`;
+export const getTaskRoute = `${host}/api/task/gettask`;
+export const updateTaskRoute = `${host}/api/task/updatetask`;
+export const deleteTaskRoute = `${host}/api/task/deletetask`;
+export const editTaskRoute = `${host}/api/task/edittask`;

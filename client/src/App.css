@@ -1,0 +1,253 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the modal content */
+/* .ReactModal__Content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+/* } */ 
+
+
+
+
+
+.deleteModalLook{
+  position: relative;
+    top: 34%;
+    height: 32%;
+    left: 26%;
+    width: 43%;
+    border: 2px solid #ffa50047;
+    border-radius: 3rem;
+    background-color: rgb(220 201 171 / 75%);
+    display: flow;
+    padding-top: 4%;
+    padding-left: 9%;
+    color: #170f0fb8;
+}
+
+.deleteModalButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 61%;
+
+}
+
+
+.deleteModalButton  button{
+
+  background-color: #e8d7c28a;
+  color: grey;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #ff9e2ac4;
+  }
+
+}
+
+
+.editModalLook{
+    top: 35%;
+    position: relative;
+    border: 2px solid #ffa50047;
+    background-color: rgb(220 201 171 / 75%);
+    border-radius: 3rem;
+    width: 33%;
+    height: 60%;
+    padding-left: 19%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 23%;
+
+    @media only screen and (max-width: 1500px) and (min-width: 801px){
+      width: 41%;
+      padding-left: 19%;
+    }
+
+    @media only screen and (max-width: 800px){
+      width: 40%;
+    }
+}
+
+.editModalTitleDiv{
+  width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editModalDescriptionDiv{
+  width: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editModalDateTimeDiv{
+  width: 37%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editModalButtonDiv{
+  width: 53%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editModalButtonDiv  button{
+
+  background-color: #e8d7c28a;
+  color: grey;
+  padding: 1rem 2rem;
+  border: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+  border-radius: 0.4rem;
+  /* font-size: 1rem; */
+  text-transform: uppercase;
+  &:hover {
+    background-color: #ff9e2ac4;
+  }
+
+}
+
+
+.addTaskModal{
+
+  top: 35%;
+    position: relative;
+    border: 2px solid #ffa50047;
+    background-color: rgb(220 201 171 / 75%);
+    border-radius: 3rem;
+    width: 33%;
+    height: 60%;
+    padding-left: 19%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 23%;
+
+    @media only screen and (max-width: 1500px) and (min-width: 801px){
+      width: 41%;
+      padding-left: 19%;
+    }
+
+    @media only screen and (max-width: 800px){
+      width: 40%;
+    }
+
+}
+
+.addTaskModal button{
+
+  background-color: #e8d7c28a;
+  color: grey;
+  padding: 1rem 2rem;
+  border: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+  border-radius: 0.4rem;
+  /* font-size: 1rem; */
+  text-transform: uppercase;
+  &:hover {
+    background-color: #ff9e2ac4;
+  }
+
+}
+
+.addTaskTitle{
+  width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addTaskDescription{
+  width: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addTaskDateTime{
+  width: 37%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addTaskButton{
+  width: 57%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
