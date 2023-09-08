@@ -10,7 +10,7 @@ const app = express();
 require('dotenv').config();
 
 const corsOptions = {
-    origin: ["https://KanbanTM.onrender.com"],
+    origin: ["https://kanbantmclient.onrender.com"],
     methods: ['GET','POST'],
     credentials: true
 };
