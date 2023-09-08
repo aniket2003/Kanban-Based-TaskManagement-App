@@ -10,8 +10,9 @@ const app = express();
 require('dotenv').config();
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['https://deploy-mern-1whq.vercel.app'],
     methods: ['GET','POST'],
+    credentials: true
 };
 
 app.use(cors(corsOptions));
