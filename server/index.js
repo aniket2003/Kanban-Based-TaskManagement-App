@@ -10,7 +10,7 @@ const app = express();
 require('dotenv').config();
 
 const corsOptions = {
-    origin: ['https://deploy-mern-1whq.vercel.app'],
+    origin: ["https://KanbanTM.onrender.com"],
     methods: ['GET','POST'],
     credentials: true
 };
