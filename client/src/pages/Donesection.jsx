@@ -203,7 +203,7 @@ function Donesection({user, tasks, setTasks, dragStart, dragEnter, drop}) {
     return (
 
 
-  <div key={`${task._id}`}
+  <div key={`${uuidv4()}`}
         className={`${task._id}`} 
         onDragStart={(e) => dragStart(e, task._id)} 
         onDragEnter={(e)=>dragEnter(e,task._id)}

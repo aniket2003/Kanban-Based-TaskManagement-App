@@ -36,8 +36,9 @@ app.use("/api/task", taskRoutes);
 
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
-    // useFindAndModify: false,
+    // useCreateIndex: true,
     useUnifiedTopology: true,
+    // useFindAndModify: false,
 }).then(()=>{
     console.log("DB connection successful");
 }).catch((err)=>{
