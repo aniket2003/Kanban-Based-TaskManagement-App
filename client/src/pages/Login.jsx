@@ -114,7 +114,7 @@ function Login() {
             onChange={(e) => handleChange(e)}
            />
 
-           <button type="submit">Loginr</button>
+           <button type="submit">Login</button>
            <span>New User ? <Link to="/register">Register</Link></span>
 
         </form>
