@@ -81,7 +81,7 @@ function ModalForm({ isOpen, onRequestClose, onSubmit, SectionName, user }) {
       contentLabel="Modal Form"
       className="addTaskModal"
     >
-      <h2>Modal Form</h2>
+      <h2>Add Task</h2>
 
       {/* <form onSubmit={(event)=> handleSubmitForm(event)}> */}
 
