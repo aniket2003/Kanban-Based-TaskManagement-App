@@ -127,8 +127,29 @@ Once the application is running, you can start managing your tasks with ease. Cr
 
 <h3>Email and Password for deployed Application Testing</h3>
 
+<p>You can use the below credentials to test the deployed application</p>
 <p>Email: aniket1234@gmail.com</p>
 <p>Password: Aniket123</p>
 <p>Username: Aniket007</p>
+
+
+<h3>Snapshots of the live application to showcase the application interface</h3>
+
+![Screenshot (230)](https://github.com/aniket2003/Kanban-Based-TaskManagement-App/assets/69465857/c89e888e-0fb5-4023-8c4e-96917c76c265)
+
+
+![Screenshot (231)](https://github.com/aniket2003/Kanban-Based-TaskManagement-App/assets/69465857/f7cf8571-4496-4e3f-a210-2a8fa43d2ffc)
+
+
+![Screenshot (232)](https://github.com/aniket2003/Kanban-Based-TaskManagement-App/assets/69465857/f70612b8-7b87-4fdb-8aaf-d901cb1c8990)
+
+
+![Screenshot (235)](https://github.com/aniket2003/Kanban-Based-TaskManagement-App/assets/69465857/1c3521ab-10b4-4050-9e8d-adeec9e11ec2)
+
+
+
+
+
+
 
 
