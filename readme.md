@@ -129,7 +129,7 @@ Once the application is running, you can start managing your tasks with ease. Cr
 
 <p>You can use the below credentials to test the deployed application</p>
 <p>Email: aniket1234@gmail.com</p>
-<p>Password: Aniket123</p>
+<p>Password: Aniket1234</p>
 <p>Username: Aniket007</p>
 
 
